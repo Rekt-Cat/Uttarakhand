@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_sign_up">
+    tools:context=".activity_sign_in">
 
     <TextView
         android:id="@+id/textView9"
@@ -12,7 +12,7 @@
         android:layout_height="100dp"
         android:fontFamily="@font/poppins_bold"
         android:gravity="center"
-        android:text="Sign up to start your journey"
+        android:text="Sign in to start your journey"
         android:textColor="@color/black"
         android:textSize="26dp"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
@@ -28,7 +28,7 @@
         android:text="By proceeding, you agree to our Terms of Use and confrim you have read our Privacy and Cookie Statement."
         android:textColor="@color/grey"
         android:textSize="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/sign_up_btn"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -44,16 +44,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/sign_up_btn"
+        android:id="@+id/sign_in_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:src="@drawable/signupgooglebtn"
+        android:src="@drawable/signingooglebtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
