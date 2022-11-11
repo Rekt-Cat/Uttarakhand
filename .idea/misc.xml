@@ -4,13 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/drawable/custom_back.xml" value="0.2295" />
-        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/activity_landing_screen.xml" value="0.264" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/drawable/custom_back2.xml" value="0.2205" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/activity_landing_screen.xml" value="0.12" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/activity_main.xml" value="0.10555555555555556" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/cloudend.xml" value="0.2" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_cloud_end_frag.xml" value="0.23854166666666668" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_fav_fragment.xml" value="0.13269927536231885" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_home_fragment.xml" value="0.176" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_home_fragment.xml" value="0.2" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_near_you_.xml" value="0.17708333333333334" />
-        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/homeitems.xml" value="0.2" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.2" />
+        <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/homeitems.xml" value="0.176" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
       </map>
     </option>

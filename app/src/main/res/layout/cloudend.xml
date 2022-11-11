@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:transitionName="cloudend"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:background="@drawable/custom_back2"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloudend" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_medium"
+                android:lineSpacingExtra="10dp"
+                android:text="Cloud's End is a wonderful stretch, which is around 6 km away from Library Road.
+ Visitors can reach this magnificent natural attraction by trekking along the Hathipaon Road from the popular Happy Valley or by car.
+                The path that leads to this mesmerising spot is replete with lush flora. The entire place around Cloud’s End is dotted by the dense oak and pine forests, which makes it is a nature lover’s retreat. This comely place serves as a landmark to the geographical end of Mussoorie. A swift 7 km drive from the main Mussoorie city will make you reach here in no time."
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:elevation="8dp"
+    android:padding="10dp"
+    android:paddingTop="10dp"
     android:background="@drawable/custom_back">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -12,9 +14,9 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/placeimage"
             android:layout_width="match_parent"
-            android:layout_height="566dp"
+            android:layout_height="360dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -25,43 +27,47 @@
 
         <TextView
             android:id="@+id/place"
-            android:layout_width="231dp"
-            android:layout_height="52dp"
-            android:fontFamily="@font/poppins_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toStartOf="@+id/rating"
+            app:layout_constraintHorizontal_bias="0.231"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.115" />
+            app:layout_constraintTop_toBottomOf="@+id/placeimage"
+            app:layout_constraintVertical_bias="0.142" />
 
         <TextView
             android:id="@+id/rating"
-            android:layout_width="139dp"
-            android:layout_height="51dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:drawableLeft="@drawable/star"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="16sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.814"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.114" />
+            app:layout_constraintTop_toBottomOf="@+id/placeimage"
+            app:layout_constraintVertical_bias="0.141" />
 
         <TextView
             android:id="@+id/detail"
-            android:layout_width="397dp"
-            android:layout_height="46dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
             android:fontFamily="@font/poppins_medium"
             android:textColor="#95000000"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.859" />
+            app:layout_constraintTop_toBottomOf="@+id/placeimage"
+            app:layout_constraintVertical_bias="0.758" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
