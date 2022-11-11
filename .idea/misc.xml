@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/cloudend.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/fragment_fav_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/fragment_home_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/fragment_near_you_.xml" value="0.2" />
+        <entry key="..\:/Users/HP/hackothan/Uttarakhand/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.2" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/drawable/custom_back.xml" value="0.2295" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/drawable/custom_back2.xml" value="0.2205" />
         <entry key="..\:/UttarakhandTourismBoosterApp/app/src/main/res/layout/activity_landing_screen.xml" value="0.12" />
